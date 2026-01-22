@@ -80,14 +80,23 @@ The application supports Aadhaar, PAN, Passport, Driving License, and Birth Cert
 ## Run Locally
 
 ### Backend
+
 cd backend
+
 python -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
+
 uvicorn main:app --reload
+
 ### Frontend
+
 cd frontend
+
 npm install
+
 npm start
 
 
