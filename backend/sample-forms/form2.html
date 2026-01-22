@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Government Registration Form</title>
+    <style>
+        body { font-family: Arial; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 800px; margin: auto; background: white; border: 3px solid #0066cc; }
+        .header { background: #0066cc; color: white; padding: 20px; text-align: center; }
+        .content { padding: 30px; }
+        .row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        label { font-weight: bold; display: block; margin-bottom: 6px; }
+        input, select, textarea { width: 100%; padding: 10px; }
+        button { background: #0066cc; color: white; padding: 12px 40px; border: none; margin-top: 20px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>GOVERNMENT REGISTRATION FORM</h1>
+    </div>
+
+    <div class="content">
+        <div class="row">
+            <div>
+                <label>Full Name *</label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label>Father's Name *</label>
+                <input type="text" name="fatherName">
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <label>Date of Birth *</label>
+                <input type="text" name="dateOfBirth">
+            </div>
+            <div>
+                <label>Gender *</label>
+                <select name="gender">
+                    <option value="">Select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+            </div>
+        </div>
+
+        <label>Full Address *</label>
+        <textarea name="address"></textarea>
+
+        <div class="row">
+            <div>
+                <label>City *</label>
+                <input type="text" name="city">
+            </div>
+            <div>
+                <label>State *</label>
+                <input type="text" name="state">
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <label>PIN Code *</label>
+                <input type="text" name="pincode">
+            </div>
+            <div>
+                <label>Mobile *</label>
+                <input type="tel" name="phone">
+            </div>
+        </div>
+
+        <label>Email</label>
+        <input type="email" name="email">
+
+        <label>Aadhaar Number</label>
+        <input type="text" name="idNumber">
+
+        <button type="submit">Submit Application</button>
+    </div>
+</div>
+</body>
+</html>

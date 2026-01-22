@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Complete Registration Form</title>
+    <style>
+        body { font-family: Arial; background: linear-gradient(135deg,#667eea,#764ba2); padding: 30px; }
+        .box { max-width: 700px; margin: auto; background: white; padding: 40px; border-radius: 15px; }
+        label { font-weight: bold; display: block; margin-top: 15px; }
+        input, textarea, select { width: 100%; padding: 12px; margin-top: 5px; }
+        button { width: 100%; margin-top: 20px; padding: 15px; background: #667eea; color: white; border: none; }
+    </style>
+</head>
+<body>
+<div class="box">
+    <h1>Complete Registration Form</h1>
+
+    <label>Full Name</label>
+    <input type="text" name="name">
+
+    <label>Father's Name</label>
+    <input type="text" name="fatherName">
+
+    <label>Date of Birth</label>
+    <input type="text" name="dateOfBirth">
+
+    <label>Gender</label>
+    <select name="gender">
+        <option value="">Select</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+    </select>
+
+    <label>Email</label>
+    <input type="email" name="email">
+
+    <label>Phone</label>
+    <input type="tel" name="phone">
+
+    <label>Address</label>
+    <textarea name="address"></textarea>
+
+    <label>City</label>
+    <input type="text" name="city">
+
+    <label>State</label>
+    <input type="text" name="state">
+
+    <label>PIN Code</label>
+    <input type="text" name="pincode">
+
+    <label>ID Number</label>
+    <input type="text" name="idNumber">
+
+    <button type="submit">Submit</button>
+</div>
+</body>
+</html>
